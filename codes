@@ -1,0 +1,29 @@
+var x = prompt ("please enter first number", 0)
+var y = prompt ("please enter second number", 0)
+var z = parseInt(x) + parseInt(y)
+console.log(z)
+
+// program 1
+var x1 = parseInt (prompt ("please enter 1st number",0))
+var y1 = parseInt (prompt ("please enter 2st number",0))
+if (x > y)
+{
+  alert (x)
+}
+else
+  {
+    alert (y)
+  }
+
+
+
+//program 3
+var sum = 0
+do 
+  {
+    var x2 = parseInt(prompt("plese enter number",0))
+    sum  = sum + 1
+  }
+
+while(x2 != 0)
+  alert(sum)
