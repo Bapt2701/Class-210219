@@ -47,3 +47,19 @@ while(x2 != 0)
   if (a < 0)
       {
         alert ("negative")
+        
+        
+        
+ //program 5 : choose 2 number a and b, if b is zero, print "not possible to divide by 0", otherwise, print a/b
+
+var a = parseInt (prompt ("Enter a", 0))
+var b = parseInt (prompt ("Enter b", 0))
+
+if (b==0)
+  {
+    alert ("you can't divide by 0")
+  }
+else 
+  {
+    alert (a/b)
+  }
