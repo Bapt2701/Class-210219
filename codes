@@ -63,3 +63,25 @@ else
   {
     alert (a/b)
   }
+
+
+//program 6 : take  number (supposively positive), print if he has 1,2 or 3 numbers or more
+
+var x = parseInt( prompt ("please enter a positive number",0))
+
+if (x < 10)
+  {
+    alert ("x has one number")
+  }
+else if (x < 100)
+  {
+    alert ( "x has 2 numbers")
+  }
+else if (x < 1000)
+  {
+    alert ("x has 3 numbers")
+  }
+if (x > 1000)
+  {
+    alert ("x has 4 or more numbers")
+  }
